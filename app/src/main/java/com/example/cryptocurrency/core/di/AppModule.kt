@@ -5,8 +5,8 @@ import com.example.cryptocurrency.core.data.repository.CoinRepositoryImpl
 import com.example.cryptocurrency.core.domain.repository.CoinRepository
 import com.example.cryptocurrency.core.domain.use_cases.GetCoinUseCase
 import com.example.cryptocurrency.core.domain.use_cases.GetCoinsUseCase
-import com.example.cryptocurrency.core.presentation.coin_detail.CoinDetailViewModel
-import com.example.cryptocurrency.core.presentation.coin_list.CoinListViewModel
+import com.example.cryptocurrency.core.presentation.coin_detail.logic.CoinDetailViewModel
+import com.example.cryptocurrency.core.presentation.coin_list.logic.CoinListViewModel
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.android.Android
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

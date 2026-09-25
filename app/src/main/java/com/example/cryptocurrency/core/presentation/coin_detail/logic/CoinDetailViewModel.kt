@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.core.presentation.coin_detail
+package com.example.cryptocurrency.core.presentation.coin_detail.logic
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.core.presentation.coin_detail.component
+package com.example.cryptocurrency.core.presentation.coin_detail.ui
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box

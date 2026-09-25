@@ -7,8 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cryptocurrency.core.presentation.coin_list.component.CoinListScreen
-import com.example.cryptocurrency.core.presentation.coin_detail.component.CoinDetailScreen
+import com.example.cryptocurrency.core.presentation.coin_list.ui.CoinListScreen
+import com.example.cryptocurrency.core.presentation.coin_detail.ui.CoinDetailScreen
 import com.example.cryptocurrency.core.presentation.ui.CryptocurrencyTheme
 
 class MainActivity : ComponentActivity() {

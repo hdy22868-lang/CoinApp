@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.core.presentation.coin_list.component
+package com.example.cryptocurrency.core.presentation.coin_list.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,7 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.cryptocurrency.core.presentation.CoinDetailRoute
-import com.example.cryptocurrency.core.presentation.coin_list.CoinListViewModel
+import com.example.cryptocurrency.core.presentation.coin_list.logic.CoinListViewModel
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

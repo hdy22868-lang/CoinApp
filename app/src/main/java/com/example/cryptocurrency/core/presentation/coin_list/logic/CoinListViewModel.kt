@@ -1,9 +1,9 @@
-package com.example.cryptocurrency.core.presentation.coin_list
+package com.example.cryptocurrency.core.presentation.coin_list.logic
 
-import com.example.cryptocurrency.core.domain.util.Result
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.cryptocurrency.core.domain.use_cases.GetCoinsUseCase
+import com.example.cryptocurrency.core.domain.util.Result
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update

@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.core.presentation.coin_detail
+package com.example.cryptocurrency.core.presentation.coin_detail.logic
 
 import com.example.cryptocurrency.core.domain.model.CoinDetail
 import com.example.cryptocurrency.core.domain.util.DataError
